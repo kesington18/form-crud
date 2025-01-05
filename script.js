@@ -1,8 +1,8 @@
 function validateForm() {
     var name = document.getElementById('name').value;
     var age = document.getElementById('age').value;
-    var state = document.getElementById('name').value;
-    var country = document.getElementById('name').value;
+    var state = document.getElementById('state').value;
+    var country = document.getElementById('country').value;
     var location = document.getElementById('location').value;
 
     if (name == "") {
